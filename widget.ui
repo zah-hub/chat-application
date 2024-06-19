@@ -109,8 +109,11 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../ChatApplication1.0/images.qrc">
+         <iconset resource="images.qrc">
           <normaloff>:/new/prefix1/images/bold.png</normaloff>:/new/prefix1/images/bold.png</iconset>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
         </property>
         <property name="autoDefault">
          <bool>true</bool>
@@ -126,8 +129,11 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../ChatApplication1.0/images.qrc">
+         <iconset resource="images.qrc">
           <normaloff>:/new/prefix1/images/italic.png</normaloff>:/new/prefix1/images/italic.png</iconset>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
@@ -140,8 +146,11 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../ChatApplication1.0/images.qrc">
+         <iconset resource="images.qrc">
           <normaloff>:/new/prefix1/images/under.png</normaloff>:/new/prefix1/images/under.png</iconset>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
@@ -154,7 +163,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../ChatApplication1.0/images.qrc">
+         <iconset resource="images.qrc">
           <normaloff>:/new/prefix1/images/color.png</normaloff>:/new/prefix1/images/color.png</iconset>
         </property>
        </widget>
@@ -168,7 +177,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../ChatApplication1.0/images.qrc">
+         <iconset resource="images.qrc">
           <normaloff>:/new/prefix1/images/send.png</normaloff>:/new/prefix1/images/send.png</iconset>
         </property>
        </widget>
@@ -182,7 +191,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../ChatApplication1.0/images.qrc">
+         <iconset resource="images.qrc">
           <normaloff>:/new/prefix1/images/save.png</normaloff>:/new/prefix1/images/save.png</iconset>
         </property>
        </widget>
@@ -196,7 +205,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../ChatApplication1.0/images.qrc">
+         <iconset resource="images.qrc">
           <normaloff>:/new/prefix1/images/clear.png</normaloff>:/new/prefix1/images/clear.png</iconset>
         </property>
        </widget>
@@ -220,7 +229,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../ChatApplication1.0/images.qrc"/>
+  <include location="images.qrc"/>
  </resources>
  <connections/>
 </ui>
